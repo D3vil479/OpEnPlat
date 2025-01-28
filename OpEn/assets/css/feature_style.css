@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+.Non_hover p {
+    font-size: 50px;
+    
+}
+.Non_hover{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    
+}
+
+.box:hover .Non_hover {
+    font-size: 0px;
+}
+.box:hover .feature_h2{
+    color: aliceblue;
+}
+
+
+
+/* My above */
+.accordion {
+    max-width: 990px;
+    background: rgba(0, 0, 0, 0.10);
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+    flex-direction: row;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.box {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    background-position: left;
+    background-size: cover;
+    transition: .7s;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
+    color: #ffffff;
+    font-size: 0vh;
+}
+.a1:hover{
+    font-size: 14px;
+    flex: 7;
+    height: 70vh;
+    width: 60vh;
+}
+.a2:hover{
+    font-size: 14px;
+    flex: 7;
+    height: 60vh;
+    width: 60vh;
+}.a3:hover{
+    font-size: 14px;
+    flex: 7;
+    height: 75vh;
+    width: 60vh;
+}.a4:hover{
+    font-size: 13.2px;
+    flex: 7;
+    height: 90vh;
+    width: 60vh;
+}.a5:hover{
+    font-size: 12.2px;
+    flex: 7;
+    height: 130vh;
+    width: 60vh;
+}.a6:hover{
+    font-size: 16px;
+    flex: 7;
+    height: 50vh;
+    width: 60vh;
+}.a7:hover{
+    font-size: 13.8px;
+    flex: 7;
+    height: 55vh;
+    width: 60vh;
+}
+.a1{
+    background-color: #5fcf80;
+}
+.a2{
+    background-color: #013220;
+}
+.a3{
+    background-color: #5fcf80;
+}
+.a4{
+    background-color: #000000;
+}
+
+.a5{
+    background-color: #013220;
+}
+.a6{
+    background-color: #5fcf80;
+}
+.a7{
+    background-color: #013220;
+}
+
+
+.feature_p p{
+    font-weight: normal;
+    font-family: 'Exo 2', sans-serif;
+}
+.text {
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+    padding: 10px;
+    
+}
+.box:hover
+{
+    width: 100px;
+}
+
+.box:hover .text{
+    opacity:1;
+}
+.feature_h1 {
+    width: 250px;
+    text-align: center;
+    margin: 100px auto 20px auto;
+}
+@media screen and (max-width: 800px){
+    body{
+        margin: 0;
+    }
+    .accordion {
+        flex-direction: column;
+        height: 700px;
+        box-shadow: none;
+    }
+    .box {
+        box-shadow: none;
+    }
+    .box:hover {
+        flex: 7;
+    }
+}
